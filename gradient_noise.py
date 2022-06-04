@@ -3,6 +3,7 @@
 This performs the incorporation of noise to the gradients of the network parameters 
 based on the implementation of the following paper:
  https://arxiv.org/abs/1511.06807
+ and https://github.com/cpury/keras_gradient_noise/blob/master/keras_gradient_noise/gradient_noise.py
  while modification of the std of the noise to be proportinal to the learning rate
 """
 import inspect
@@ -12,7 +13,7 @@ import tensorflow as tf
 ##  to adjust the variance as the learning rate 
 def add_gradient_noise(BaseOptimizer, keras=None):
     """
-    This class returns a modified optimizer class that
+    This class returns a modified keras optimizer that
     supports adding gradient noise to the gradients as described in this paper:
     https://arxiv.org/abs/1511.06807
     alpha is a pre-defiend parameter, which is selected by the user. The std of the noise is lr/alpha
