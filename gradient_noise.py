@@ -12,10 +12,10 @@ import tensorflow as tf
 ##  to adjust the variance as the learning rate 
 def add_gradient_noise(BaseOptimizer, keras=None):
     """
-    Given a Keras-compatible optimizer class, returns a modified class that
-    supports adding gradient noise as introduced in this paper:
+    This class returns a modified optimizer class that
+    supports adding gradient noise to the gradients as described in this paper:
     https://arxiv.org/abs/1511.06807
-    The relevant parameter is alpha, which is selected by the user. 
+    alpha is a pre-defiend parameter, which is selected by the user. The std of the noise is lr/alpha
     """
     if keras is None:
         # Import it automatically. Try to guess from the optimizer's module
