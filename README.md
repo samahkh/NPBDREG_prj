@@ -6,4 +6,4 @@
   
   --
   ### A blocks diagram of the system
-<img src="images/pipline.png" width="600" />
+<img src="images/system.JPG" width="600" />
