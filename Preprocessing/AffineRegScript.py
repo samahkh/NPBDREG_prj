@@ -8,7 +8,7 @@ This script performs affine registration to all datasets and saves the new
 processed images in a path determined by the user
 """
 import sys
-sys.path.append('/tcmldrive/Samah/ISBI21')
+
 import nibabel as nib
 from MulSliceView import multi_slice_viewer
 from Preprocessing import crop_center
