@@ -7,7 +7,6 @@ Created on Sat Dec 26 19:18:31 2020
 """
 import sys
 
-from MulSliceView import multi_slice_viewer
 import nibabel as nib
 import os
 from Preprocessing import Int_normalize
