@@ -1,12 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 17 22:20:30 2020
 
-@author: ssamahkh 
-Preprocessing function: resampling to uniform grid, resize, normalization and image padding 
-"""
-      
-#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 import SimpleITK as sitk
 import numpy as np
 
