@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun 10 14:08:07 2020
-
-@author: ssamahkh@bm.technion.ac.il
-"""
 
 #from dipy.viz import regtools
 from dipy.align.metrics import CCMetric
