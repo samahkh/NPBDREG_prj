@@ -1,12 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep  1 15:18:11 2020
 
-@author: ssamahkh@bm.technion.ac.il
-This script performs affine registration to all datasets and saves the new 
-processed images in a path determined by the user
-"""
 import sys
 
 import nibabel as nib
